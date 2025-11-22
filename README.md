@@ -50,7 +50,11 @@ flowchart TD
     D["Validation / Normalization"]
     E["Output (Blob Storage / Webhook / API)"]
 
-    A --> B --> C --> D --> E
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+
 
 The first version focuses on the extraction pipeline.  
 Workflow actions and UI will be added step by step.
