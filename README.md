@@ -69,7 +69,7 @@ The project starts with a minimal MVP and expands incrementally.
 | Output (Blob Storage /     |
 | Webhook / API)             |
 +----------------------------+
-
+```
 
 The first version focuses on the extraction pipeline.  
 Workflow actions and UI will be added step by step.
