@@ -42,14 +42,15 @@ The project starts with a minimal MVP and expands incrementally.
 ---
 
 ## Architecture (Initial MVP)
+```text
 +----------------------------+
 |  Input (Email / File / API)|
 +-------------+--------------+
               |
               v
 +----------------------------+
-| Azure Function (HTTP      |
-| Trigger)                  |
+| Azure Function (HTTP       |
+| Trigger)                   |
 +-------------+-------------+
               |
               v
