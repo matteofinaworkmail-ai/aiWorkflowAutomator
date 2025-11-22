@@ -43,7 +43,6 @@ The project starts with a minimal MVP and expands incrementally.
 
 ## Architecture (Initial MVP)
 
-...mermaid
 flowchart TD
     A[Input<br/>(Email / File / API)] --> B[Azure Function<br/>(HTTP Trigger)]
     B --> C[AI Extraction Layer<br/>(Azure OpenAI)]
