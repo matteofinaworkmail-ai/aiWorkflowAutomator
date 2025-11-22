@@ -42,13 +42,15 @@ The project starts with a minimal MVP and expands incrementally.
 ---
 
 ## Architecture (Initial MVP)
-
+```mermaid
 flowchart TD
-    A[Input<br/>(Email / File / API)] --> B[Azure Function<br/>(HTTP Trigger)]
-    B --> C[AI Extraction Layer<br/>(Azure OpenAI)]
-    C --> D[Validation / Normalization]
-    D --> E[Output<br/>(Blob Storage / Webhook / API)]
+    A["Input (Email / File / API)"]
+    B["Azure Function (HTTP Trigger)"]
+    C["AI Extraction Layer (Azure OpenAI)"]
+    D["Validation / Normalization"]
+    E["Output (Blob Storage / Webhook / API)"]
 
+    A --> B --> C --> D --> E
 
 The first version focuses on the extraction pipeline.  
 Workflow actions and UI will be added step by step.
